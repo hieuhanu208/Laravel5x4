@@ -184,3 +184,4 @@ class StartSession
 Hàm terminate sẽ nhận cả request và response. Khi bạn đã định nghĩa terminable middleware, bạ phải thêm nó vào trong danh sách global middleware trong HTTP kernel.
 Khi gọi hàm terminate trong middleware, Laravel sẽ thực hiện giải quyết trường hợp mới cho middleware từ service container. Nếu bạn muốn sử dụng cùng một trường hợp khi mà hàm handlevà hàm terminate dduwcoj gọi, đăng ký middleware vào trong container sử dụng hàm singleton.
 
+Link original:https://laravel.com/docs/5.4/middleware
